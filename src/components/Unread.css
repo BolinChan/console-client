@@ -1,0 +1,45 @@
+.unreadlst:hover {
+    overflow-y: visible;
+    overflow-y: overlay;
+  }
+  
+  .unreadlst{
+    overflow: hidden;
+    max-height: 400px;
+    padding:10px;
+  }
+  .contact {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom:20px;
+  }
+  .contact:last-child{
+    margin-bottom: 0;
+  }
+  .info{
+    flex: 2;
+    height: 100%;
+  }
+  .line{
+    display: flex;
+    align-items: center;
+  }
+  .content{
+    padding: 0 15px;
+    flex: 2;
+  }
+
+  .extra{
+    min-width: 60px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .lastTime{
+    font-size: 12px;
+  }
+  .lastMsg{
+    font-size: 12px;
+  }

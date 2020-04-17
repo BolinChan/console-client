@@ -1,0 +1,88 @@
+.container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../assets/bg.png") no-repeat center 0;
+}
+
+.box {
+    width: 460px;
+    padding: 60px 60px 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -300px;
+    margin-left: -230px;
+    background: #fff;
+    box-shadow: 0 6px 80px 4px rgba(14, 36, 63, 0.6);
+    border-radius: 8px;
+}
+
+.titleBg {
+    position: absolute;
+    width: 234px;
+    height: 76px;
+    left: 113px;
+    top: -38px;
+    background: url("../assets/titleBg.png") no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgBox {
+    position: absolute;
+    height: 30px;
+    width: 130px;
+    background: url("../assets/logo.png") no-repeat;
+    background-size: cover;
+}
+
+.productName {
+    text-align: center;
+    color: #f1f1f1;
+    height: 76px;
+    line-height: 76px;
+    font-size: 24px;
+}
+
+.titleWrap {
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.lines {
+    height: 20px;
+    width: 70px;
+    border-bottom: 1px solid #3498e9;
+    margin: 0 20px;
+}
+
+.title {
+    font-size: 22px;
+    line-height: 37px;
+    color: #3498e9;
+    letter-spacing: 1px;
+}
+
+.subBtn {
+    background: #3498e9;
+    border-radius: 8px;
+    color: #f1f1f1;
+    font-size: 20px;
+    font-weight: 700;
+    font-weight: normal;
+}
+
+.goTarget {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 12px;
+}

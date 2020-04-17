@@ -1,0 +1,12 @@
+.btns{
+    padding: 0 15px 15px 15px;
+}
+.btns div{
+    width: 100%;
+    display: flex;
+}
+.btns div label{
+    display: block;
+    flex: 1;
+    text-align: center;
+}

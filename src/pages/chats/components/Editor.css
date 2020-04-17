@@ -1,0 +1,147 @@
+.editor {
+    height: 210px;
+    border-top: 0.5px solid #e7e7e7;
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+}
+
+.edit {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.toolBar {
+    padding: 10px 0 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(198, 197, 197);
+}
+
+.leftTools {
+    flex: 2;
+    display: flex;
+    align-items: center;
+}
+
+.tool {
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.tool:last-child {
+    margin: 0;
+}
+
+.tool i {
+    color:rgba(0, 0, 0, 0.5);
+    -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    font-size: 20px;
+}
+
+.tool:hover i {
+    color: rgb(160, 160, 160);
+}
+
+.rightTools {
+    cursor: pointer;
+    -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    border-radius: 4px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.rightTools:hover {
+    background-color: rgb(160, 160, 160);
+}
+
+.recordActive {
+    background-color: rgb(160, 160, 160);
+}
+
+.box {
+    flex: 2;
+    position: relative;
+}
+
+.box textarea,
+.box textarea:hover,
+.box textarea:focus {
+    width: 100%;
+    height: 100%;
+    resize: none;
+    padding: 0;
+    border: none;
+    outline: none;
+    background: none;
+    box-shadow: none;
+}
+
+.bottomBar {
+    padding: 10px 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.rotate {
+    transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+}
+
+.boxKsy {
+    width: 70%;
+    padding: 10px;
+    position: absolute;
+    bottom: 130%;
+    left:20%;
+    background: #fff;
+    box-shadow: 0 0 10px #d9d8d9;
+}
+
+.boxKsyul {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    word-break: break-all;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.boxKsyulItem {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.boxKsyulItem:hover {
+    color: #fff;
+    background: rgb(71, 150, 274);
+    /* background-color: #dad9d8; */
+}
+.selKsyItem{
+    color: #fff;
+    background: rgb(71, 150, 274)
+}
+
+.boxKsy i {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid #fff;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+}

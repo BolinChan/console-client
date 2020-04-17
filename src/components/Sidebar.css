@@ -1,0 +1,84 @@
+.bar {
+  position: relative;
+  z-index: 9;
+  background: #f0f2f5;
+  width: 80px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.navs {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  overflow-y: auto;
+  padding-top: 24px;
+}
+.nav {
+  border-radius: 10px;
+  margin-bottom: 24px;
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.1s 0.1s;
+  -webkit-transition: all 0.1s 0.1s;
+  color: #0093dd;
+}
+.nav:hover{
+  background-color: rgba(255,255,255,.6);
+  -webkit-box-shadow: 0 8px 20px rgba(143,168,191,.35);
+  box-shadow: 0 8px 20px rgba(143,168,191,.35);
+}
+.iconBox{
+  position: relative;
+  width: 24px;
+  height: 24px;
+  margin-top: 21px;
+  transition: all 0.3s ease-out 0.1s;
+  -webkit-transition: all 0.3s ease-out 0.1s;
+}
+.def, .hid{
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+}
+.hid{
+  opacity: 0;
+  position: absolute;
+  left: 0;
+}
+.nav:hover .def{
+  opacity: 0;
+}
+.nav:hover .hid{
+  opacity: 1;
+}
+.nav:hover .iconBox{
+  margin: 0;
+}
+.navTitle{
+  opacity: 0;
+  -webkit-transition: all 0.2s ease-out 0.1s;
+  transition: all 0.2s ease-out 0.1s;
+}
+.nav:hover .navTitle{
+  opacity: 1;
+}
+.bottomSwitch {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 24px 0;
+}

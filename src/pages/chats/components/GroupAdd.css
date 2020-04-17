@@ -1,0 +1,58 @@
+.extraBtn {
+    background-color: rgb(219, 217, 216);
+    border: none;
+    margin-left: 8px;
+}
+.extraBtn:hover,
+.extraBtn:active,
+.extraBtn:focus,
+.extraBtn:visited {
+    background-color: rgb(219, 217, 216);
+    border: none;
+    outline: none;
+    box-shadow: none;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.addbtn{
+    margin-left: 20px;
+    font-size: 18px;
+    color:#1890ff;
+    cursor: pointer;
+}
+
+
+.contacts{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    border-radius: 4px;
+    border:1px solid #d9d9d9;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    margin-bottom: 4px;
+}
+
+.container{
+    position: relative;
+    max-height: 250px;
+    overflow: hidden;
+}
+.container:hover{
+    overflow-y: visible;
+    overflow-y: overlay;
+}
+.container label{
+    width: 100%;
+    margin: 0;
+    padding: 6px 12px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.container label:hover{
+    background-color: #e6f7ff;
+}
+.thumb{
+    margin-left: 4px;
+    margin-right: 12px;
+}

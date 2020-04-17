@@ -1,0 +1,52 @@
+.devices {
+  position: relative;
+  width: 110px;
+  background-color: #28282b;
+  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  overflow: hidden;
+}
+.devices:hover {
+  overflow-y: visible;
+  overflow-y: overlay;
+}
+.hidden {
+  width: 0;
+  opacity: 0;
+}
+.device {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 10px;
+  /* overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; */
+  word-wrap: break-word;
+  word-wrap: break-all;
+  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  color: hsla(0, 0%, 100%, 0.65);
+  position: relative;
+}
+.device:hover {
+  color: #fff;
+}
+.active {
+  background-color: #1890ff;
+  color: #fff;
+}
+.devices_order_number {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  margin-left: -45px;
+  margin-top: -14px;
+  border-radius: 50%;
+}
+.badge {
+  position: absolute;
+  right: 20px;
+  top: 5px;
+}

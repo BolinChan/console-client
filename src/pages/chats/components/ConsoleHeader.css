@@ -1,0 +1,59 @@
+.header {
+    height: 62.5px;
+    border-bottom: 0.5px solid #e7e7e7;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.nick {
+    font-size: 16px;
+    color: #000;
+    flex: 2;
+    font-weight: bold;
+}
+.content{
+    height: 62.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.allTags{
+    width: 500px;
+    max-height: 700px;
+    margin-bottom: -8px;
+    overflow-y: auto;
+}
+.tags{
+    max-width: 415.5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    margin-bottom: -6px;
+}
+.group{
+    margin-right: 8px;
+}
+
+.textBox {
+    width: 267px;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.imgBox {
+    width: 267px;
+    max-height: 267px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.imgBox img {
+    width: 100%;
+}
+
+.close {
+    margin-right: 10px;
+}

@@ -1,0 +1,70 @@
+.container {
+  flex: 2;
+  width: 300px;
+  overflow: hidden;
+}
+.container:hover {
+  overflow-y: visible;
+  overflow-y: overlay;
+}
+.box {
+  border-top: solid 0.5px #c6c5c5;
+}
+.box:first-child {
+  border: none;
+}
+.itemOrder {
+  padding: 10px 15px;
+}
+
+.item, .active{
+  padding: 15px;
+  cursor: pointer;
+}
+.item:hover {
+  background-color: #dad9d8;
+}
+.active {
+  background-color: #c6c5c5;
+}
+
+.contact {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.item:last-child .contact {
+  border: none;
+}
+.info{
+  flex: 2;
+  height: 100%;
+  padding-left: 15px;
+}
+
+:global(#contacts .ant-collapse-content-box){
+  padding: 0;
+}
+:global(#contacts .ant-collapse-borderless){
+  background-color: #e7e7e7;
+}
+:global(#contacts .ant-collapse-borderless > .ant-collapse-item:last-child){
+  border: none;
+}
+
+.noData{
+  padding: 10px 18px;
+}
+.loader{
+  text-align: center;
+  width: 100%;
+  padding: 10px 15px;
+}
+.tagList{
+  max-height:800px;
+  overflow-y: overlay;
+}
+/* .tagList:hover{
+  overflow-y: visible;
+  overflow-y: overlay;
+} */

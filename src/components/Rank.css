@@ -1,0 +1,39 @@
+.popItem{
+    padding: 0 16px;
+    height: 100%;
+    cursor: pointer;
+    -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.popItem:hover {
+    background-color: #006add;
+    -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.content {
+    min-width: 240px;
+    min-height: 100px;
+    /* max-height: 480px; */
+    overflow: hidden;
+    /* overflow-y: auto; */
+}
+.item {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+.item:first-child {
+    margin: 0;
+}
+.no {
+    margin-right: 12px;
+}
+.context {
+    flex: 1;
+}
+.extra {
+    margin-left: 12px;
+}

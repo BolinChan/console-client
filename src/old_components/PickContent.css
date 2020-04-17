@@ -1,0 +1,84 @@
+.container{
+    padding: 12px 16px;
+    position: relative;
+    overflow: hidden;
+    overflow-y: auto;
+    overflow-y: visible;
+    overflow-y: overlay;
+    max-height: 500px;
+}
+.box{
+    max-width: 463px;
+}
+.main{
+    display: flex;
+}
+.select{
+    width: 120px;
+    margin-right: 16px;
+}
+.select:last-child{
+    margin-right: 0;
+}
+.header{
+    display: flex;
+    height: 45px;
+    align-items: center;
+}
+.item{
+    min-width: 66px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.title{
+    bottom: 0px;
+    font-size: 12px;
+    color: #1890ff;
+}
+.content{
+    border: 0.5px solid #e7e7e7;
+    border-radius: 4px;
+    /* margin-bottom: 12px; */
+    overflow: hidden;
+}
+.line{
+    display: flex;
+    border-bottom: 0.5px solid #e7e7e7;
+    overflow: hidden;
+}
+.line:last-child{
+    border: none;
+}
+.line .item{
+    cursor: pointer;
+    border-right: 0.5px solid #e7e7e7;
+    -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.line .item:hover{
+    background-color: #e7e7e7;
+}
+.line .item:last-child{
+    border: none;
+}
+.line .noItem{
+    cursor: auto;
+}
+.line .noItem:hover{
+    background: none;
+}
+
+.time{
+    border: 0.5px solid #e7e7e7;
+    border-radius: 4px;
+    /* margin-bottom: 12px; */
+    overflow: hidden;
+}
+.btn{
+    display: flex;
+    justify-content: flex-end;
+}

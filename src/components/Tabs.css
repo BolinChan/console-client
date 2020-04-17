@@ -1,0 +1,15 @@
+.btns{
+    padding: 0 15px 15px 15px;
+}
+.btns div{
+    width: 100%;
+    display: flex;
+}
+.btns div label{
+    display: block;
+    flex: 1;
+    text-align: center;
+    border: none;
+    background-color: #dad9d8;
+    /* background-color: #c6c5c5; */
+}

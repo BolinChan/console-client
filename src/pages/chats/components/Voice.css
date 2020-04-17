@@ -1,0 +1,22 @@
+.main{
+    display: flex;
+    padding: 10px 0;
+    align-items: center;
+}
+.play{
+    cursor: pointer;
+    margin-right: 10px;
+    color: rgb(198, 197, 197);
+    -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    font-size: 20px;
+}
+.play:hover,.audioIcon:hover  {
+    color: rgb(160, 160, 160);
+}
+.audioIcon{
+    cursor: pointer;
+    color: rgb(198, 197, 197);
+    font-size: 30px;
+    margin: 20px 20px 0 0;
+}

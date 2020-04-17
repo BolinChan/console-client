@@ -1,0 +1,40 @@
+.addbtn{
+    margin-left: 20px;
+    font-size: 18px;
+    color:#1890ff;
+    cursor: pointer;
+}
+.itemMain{
+    list-style: none;
+    height:500px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width:100%;
+    padding:0 !important;
+    margin:20px 0 0 0 !important;
+}
+.item{
+    padding: 10px 24px;
+    display: flex;
+    align-items: center;
+}
+.item:hover{
+    cursor: pointer;
+    background: #c6c5c5
+}
+.itemActive{
+    background: #c6c5c5;
+}
+
+.itemImg{
+    width:40px;
+    height:40px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    margin:0 20px;
+}
+.itemHref{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}

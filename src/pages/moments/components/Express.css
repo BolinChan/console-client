@@ -1,0 +1,52 @@
+
+.expressTab {
+  width: 410px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.expressStyleImg {
+  padding: 5px;
+  width: 40px;
+  cursor: pointer;
+}
+.expressStyleImg:hover {
+  background-color: #ccc;
+}
+.expressStyleP {
+  display: inline-block;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  margin: 5px 0;
+}
+
+.expressBoxItem {
+  overflow: hidden;
+  overflow-y: auto;
+  height: 310px;
+}
+.expressBoxItem i:hover{
+  background-color: #ccc;
+}
+.expressBoxItem i{
+  cursor: pointer;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding:6px;
+  vertical-align: middle;
+}
+:global(#expressNew .ant-popover-inner-content) {
+  padding: 8px;
+  padding-bottom: 0;
+}
+:global(#expressNew .ant-tabs-bar){
+  margin:0 !important;
+}
+.emojiIcon i{
+  color: rgba(0,0,0,.5);
+}

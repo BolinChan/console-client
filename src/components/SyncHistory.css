@@ -1,0 +1,31 @@
+.content {
+    min-width: 240px;
+    min-height: 100px;
+}
+
+.item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid #e8e8e8;
+}
+.item:last-child{
+    border-bottom: none;
+}
+.popItem{
+    padding: 0 16px;
+    height: 100%;
+    cursor: pointer;
+    -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.popItem:hover {
+    background-color: #006add;
+    -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  }

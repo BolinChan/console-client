@@ -1,0 +1,41 @@
+.toolBar {
+    z-index: 1;
+    position: absolute;
+    padding: 4px 11px 4px 11px;
+    width: 472px;
+    border-bottom: 1px solid #d9d9d9;
+    font-size: 20px;
+}
+.preview{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border: 0.5px solid #e7e7e7;
+    border-radius: 4px;
+    padding: 6px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    margin-right:15px;
+
+}
+.imgLst{
+    width:100%;
+    margin:15px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.imgitem{
+    width: 80px;
+    height: 80px;
+    border-radius: 4px;
+    margin-right:15px;
+    margin-bottom: 15px;
+
+}

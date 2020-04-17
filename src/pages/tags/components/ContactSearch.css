@@ -1,0 +1,7 @@
+.searchBox{
+    flex: 2;
+    padding-right: 15px;
+  }
+  .search{
+    text-align: center;
+  }

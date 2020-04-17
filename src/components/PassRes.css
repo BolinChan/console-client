@@ -1,0 +1,64 @@
+.popItem{
+    padding: 0 16px;
+    height: 100%;
+    cursor: pointer;
+    -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.popItem:hover {
+    background-color: #006add;
+    -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.content {
+    min-width: 300px;
+    min-height: 100px;
+    max-height: 400px;
+    overflow: auto;
+    margin-right: -15px;
+    padding-right: 15px;
+    max-height: 450px;
+}
+.item {
+    padding: 12px 0;
+    border-bottom: 0.5px solid #e7e7e7;
+}
+.item:first-child {
+    margin: 0;
+    padding-top: 0;
+}
+.item:last-child {
+    border: none;
+}
+.header, .footer {
+    display: flex;
+    align-items: center;
+}
+.header {
+    margin-bottom: 8px;
+}
+.context {
+    display: flex;
+    align-items: center;
+}
+.reason {
+    font-size: 12px;
+    margin-top: 8px;
+    color: rgba(0, 0, 0, .45);
+    line-height: 1;
+}
+.footer {
+    margin-top: 8px;
+}
+.time {
+    font-size: 12px;
+    flex: 1;
+}
+:global(.ant-popover-inner-content) {
+    max-height: 480px;
+    overflow: hidden;
+    overflow-y: auto;
+}

@@ -1,0 +1,117 @@
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.content{
+    flex: 2;
+    overflow: hidden;
+    padding:20px 24px 24px 24px;
+}
+.content:hover{
+    overflow-y: visible;
+    overflow-y: overlay;
+}
+.loadingBox {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dzlst {
+    position: relative;
+    background: #dad9d8;
+    padding: 2px 10px;
+    color: #1890ff;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 1px;
+}
+
+.dzlst .trangile {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 6px solid #f5f5f5;
+    border-right: 6px solid #f5f5f5;
+    border-bottom: 5px solid #dad9d8;
+    margin-left: 10px;
+    margin-top: -6px;
+    left: 0;
+}
+.dzItem::after{
+    content:",";
+    margin-right: 3px;
+}
+.dzItem:last-child::after{
+    content:"";
+}
+
+.dzCancle {
+    color: rgba(0, 0, 0, 0.45)
+}
+
+.dzSel {
+    color: #1890ff;
+}
+
+.momentLst {
+    position: relative;
+}
+
+.momentHeader {
+    display: flex;
+    align-items: center;
+}
+.momentItem:hover{
+    overflow-y: visible;
+    overflow-y: overlay;
+}
+.momentItem {
+    height: 500px;
+    overflow: hidden;
+    padding: 20px;
+    border-radius: 5px;
+    background:#fff;
+}
+
+
+.momentTitle {
+    display: flex;
+    flex-direction: column;
+    color: rgb(98, 106, 142);
+   
+}
+
+
+.momentMain {
+    margin-top: 20px ;
+}
+.imgLst{
+    display: flex;
+    flex-wrap: wrap;
+}
+.contentText {
+    margin-bottom: 20px;
+}
+
+.preImg {
+    width: 110px;
+    height: 110px;
+    margin-bottom: 10px;
+}
+
+
+.loadImg{
+    font-size: 50px;
+    margin:0 10px 10px 0;
+    color:#1890ff;
+    cursor: pointer;
+}
+.loadingcontainer{
+    display: flex;
+    justify-content: center;
+    /* margin: 20px 0; */
+}

@@ -1,0 +1,51 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.item,
+textarea {
+  padding: 10px;
+}
+.box textarea {
+  width: 100%;
+  flex: 1;
+  border: 0;
+  border: none;
+  outline: none;
+  resize: none;
+  line-height: 20px;
+}
+.betweenItem {
+  border-top: 1px solid #e8e8e8;
+  width: 100%;
+  height: 40px;
+  align-items: center;
+  display: flex;
+  /* justify-content: space-between; */
+  padding: 0 10px;
+}
+.Tagging {
+  flex: 1;
+  padding: 0 20px;
+}
+.express{
+  padding-right: 10px;
+  line-height: 18px;
+}
+.covered {
+  flex: 1;
+}
+.express i ,
+.covered i {
+  font-size: 20px;
+}
+.overText {
+  padding-left: 20px;
+  color: red;
+}
+.overText i {
+  padding: 0 5px;
+}

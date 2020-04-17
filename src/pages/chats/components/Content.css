@@ -1,0 +1,32 @@
+.content {
+  width: 100%;
+}
+.header {
+  height: 63px;
+  border-bottom: 0.5px solid #d7d7e5;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  line-height: 1;
+}
+.nick {
+  font-size: 16px;
+}
+.console {
+  height: calc(100% - 70px - 190px);
+  overflow: hidden;
+  overflow-y: auto;
+  padding: 0 15px;
+}
+.msg {
+  position: relative;
+  margin: 15px 0;
+}
+.his {
+  display: flex;
+}
+.mine {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}

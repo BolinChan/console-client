@@ -1,0 +1,61 @@
+.contacts{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    border-radius: 4px;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    margin-bottom: 4px;
+}
+.searchBox{
+    padding: 6px 12px;
+}
+.searchBox input{
+    border: 1px solid #d9d9d9;
+}
+.container{
+    position: relative;
+    height: 250px;
+    overflow: hidden;
+}
+.container:hover{
+    overflow-y: visible;
+    overflow-y: overlay;
+}
+.container label{
+    width: 100%;
+    margin: 0;
+    padding: 6px 12px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.container label:hover{
+    background-color: #e6f7ff;
+}
+.thumb{
+    margin-left: 4px;
+    margin-right: 12px;
+}
+.loadItem{
+    padding: 6px 12px;
+    display: flex;
+    justify-content: center;
+}
+.fullContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgBox{
+    position: relative;
+    overflow: hidden;
+    width: 86px;
+    height: 86px;
+}
+.imgBox img{
+    width: 100%;
+}

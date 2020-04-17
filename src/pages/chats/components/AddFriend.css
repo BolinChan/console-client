@@ -1,0 +1,19 @@
+.extraBtn {
+    width: 32px;
+    height: 32px;
+    background-color: rgb(219, 217, 216);
+    border: none;
+}
+.extraBtn:hover,
+.extraBtn:active,
+.extraBtn:focus,
+.extraBtn:visited {
+    background-color: rgb(219, 217, 216);
+    border: none;
+    outline: none;
+    box-shadow: none;
+    color: rgba(0, 0, 0, 0.65);
+}
+.checkBtn {
+  margin-left: 80px;
+}

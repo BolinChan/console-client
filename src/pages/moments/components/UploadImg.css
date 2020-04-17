@@ -1,0 +1,112 @@
+.uplodBox:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+}
+.uplodDiv {
+  /* width: 100%;
+  min-width: 350px;
+  max-width: 1130px;
+  min-height: 125px; */
+  position: relative;
+  z-index: 5;
+  float: left;
+  padding-top: 8px;
+  padding-left: 8px;
+  border: 1px dashed rgb(217, 217, 217);
+  border-radius: 4px;
+}
+.uplodDiv >span{
+  display: flex;
+  flex-wrap: wrap;
+}
+.uplodDiv:hover {
+  border-color: #40a9ff;
+}
+.uplodDiv:focus {
+  border-color: rgb(9, 109, 217);
+}
+/* 每个图片框 */
+.uplodDiv > span > div:first-child > div {
+  padding: 0px !important;
+  position: relative;
+  z-index: 5;
+}
+/* 上传框 */
+.uplodDiv > span > div:last-child {
+  border-radius: 0px !important;
+}
+/* 模态框预览图片 */
+.previewBox > div > div {
+  padding: 0px !important;
+}
+.uplodDiv img {
+  width: 102px !important;
+  height: 102px !important;
+}
+.uplodDiv > span:last-child {
+  height: 0px !important;
+  float: left;
+}
+.uplodDiv > span:last-child button {
+  /* width: 99%;
+  min-height: 122px;
+  max-width: 1128px;
+  height: 99%; */
+  margin-left: 1px;
+  margin-top: 1px;
+  border: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.uplodDiv > span:last-child button i {
+  font-size: 38px;
+}
+.uplodDiv > span:last-child div:last-child {
+  display: none;
+}
+/* 上传图片进度条 */
+:global .ant-upload-list-picture-card .ant-upload-list-item-uploading-text {
+  text-align: center;
+}
+:global .ant-upload-list-picture-card .ant-upload-list-item-progress {
+  padding-left: 25px;
+}
+
+:global .ant-upload-list-item-done > .ant-upload-list-item-info > span {
+  width: 102px;
+  /* height: 102px; */
+  position: relative;
+  overflow: hidden;
+}
+:global .ant-upload.ant-upload-select-picture-card {
+  position: relative;
+  z-index: 5;
+}
+:global .ant-upload.ant-upload-select-picture-card > .ant-upload{
+  padding: 0;
+}
+.uploadBox{
+  padding: 8px 0 0 8px;
+  border: 1px dashed rgb(217, 217, 217);
+  width: max-content;
+}
+.uploadBox:hover{
+  border-color: #1890ff
+}
+.delIcon{
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: #fff;
+  font-size: 18px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 5px;
+  border-radius: 50%;
+}
+.delIcon:hover{
+  background: rgba(0, 0, 0, 0.7);
+  padding: 6px;
+}

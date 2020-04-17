@@ -1,0 +1,125 @@
+.message_edit {
+  height: 190px;
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #e8e8e8;
+}
+
+.inputbox {
+  height: 120px;
+}
+
+.inputbox textarea {
+  padding: 10px;
+  height: 115px;
+  width: 100%;
+  border: none;
+  outline: none;
+  resize: none;
+}
+
+.sendbox {
+  /* height: 45px; */
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 25px;
+  align-items: center;
+}
+.iconPadding i {
+  margin: 0 10px;
+}
+.select_image {
+  /* padding-top: 20px; */
+  font-size: 20px;
+}
+.select_image i {
+  color: #a2a0a0;
+  cursor: pointer;
+}
+.select_image i:hover {
+  color: #777575;
+}
+.record {
+  color: #a2a0a0;
+  cursor: pointer;
+  padding: 0 10px;
+  border: 1px solid #fff;
+  /* font-size: 15px; */
+}
+.action {
+  /* border: 1px solid #9d9fa0; */
+  border-radius: 4px;
+  background-color: rgb(216, 216, 216);
+  color: rgba(0, 0, 0, 0.65);
+  /* background: rgb(245, 245, 245); */
+}
+.action span {
+  color: #333;
+}
+.record span:hover {
+  color: #333;
+}
+.record:hover {
+  color: #777575;
+}
+.expressStyle {
+  width: 380px;
+  max-height: 300px;
+  overflow-y: auto;
+  cursor: pointer;
+}
+
+.expressStyle img {
+  padding: 5px;
+  width: 40px;
+}
+.expressStyle img:hover {
+  border: 1px solid #1890ff;
+}
+.expressStyle p {
+  display: inline-block;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  margin: 5px 0;
+}
+.popover div {
+  padding-right: 2px;
+}
+.quickReply {
+  margin-bottom: 0;
+  line-height: 35px;
+  cursor: pointer;
+  padding-left: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.quickReply:hover {
+  background: #eee;
+}
+.cover {
+  width: 100%;
+  height: 800px;
+  z-index: 3;
+  background: rgba(0, 0, 0 0.5);
+}
+.placeHolder {
+  color: #888;
+  font-size: 12px;
+  margin-left: 10px;
+  margin-right: 7px;
+}
+.functionBar {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10px;
+  align-items: center;
+}
+.record span {
+  margin-left: 5px;
+}
+.record {
+  font-size: 15px;
+}

@@ -1,0 +1,60 @@
+:global(#express .ant-popover-inner-content) {
+    padding: 0;
+    width: 430px;
+    height: 260px;
+}
+:global(#express .ant-tabs-bar){
+    margin: 0;
+}
+.expressBox{
+    height: calc(260px - 37px);
+    overflow: hidden;
+    overflow-y: visible;
+    overflow-y: overlay;
+    padding: 4px;
+}
+.expressBox .express {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px;
+    cursor: pointer;
+    border-radius: 2px;
+    overflow: hidden;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+.expressBox .express:hover {
+    background-color: #ccc;
+}
+.customItem{
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    border-radius: 2px;
+    border: 0.5px solid #e7e7e7;
+    margin: 4px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    text-align: center;
+    line-height: 60px;
+    font-size: 24px;
+}
+.customItem:hover{
+    background-color: #ccc;
+}
+.customItem img{
+    width: 100%
+}
+
+.emptyBox{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

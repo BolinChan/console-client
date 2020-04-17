@@ -1,0 +1,42 @@
+.sidebar {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+:global(#sidebarR .ant-tabs) {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+:global(#sidebarR .ant-tabs-bar) {
+  border-bottom: 0.5px solid #e7e7e7;
+  margin: 0;
+}
+:global(#sidebarR .ant-tabs-nav) {
+  width: 100%;
+}
+:global(#sidebarR .ant-tabs-nav div) {
+  display: flex;
+  width: 100%;
+}
+:global(#sidebarR .ant-tabs-nav .ant-tabs-tab) {
+  height: 64px;
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+}
+:global(#sidebarR .ant-tabs-content) {
+  flex: 2;
+}
+:global(#sidebarR .ant-tabs-tabpane) {
+  height:100%;
+  overflow: hidden;
+}
+:global(#sidebarR .ant-tabs-tabpane:hover) {
+  overflow-y: visible;
+  overflow-y: overlay;
+}
+.planBox {
+  padding: 15px;
+}

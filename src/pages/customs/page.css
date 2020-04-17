@@ -1,0 +1,135 @@
+.beyond {
+    max-width: 210px;
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-left: 10px;
+    line-height: 25px;
+}
+
+.beyond>div {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.navButton {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.noWrap {
+    white-space: nowrap;
+}
+
+.modalItem {
+    margin-bottom: 20px;
+}
+
+.modalItem:last-child {
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    background-color: #f5f5f5;
+    height: 100%;
+  
+}
+
+:global(#tags .ant-checkbox-group-item) {
+    margin-left: 0 !important;
+    width: 140px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 5px;
+    line-height: normal;
+}
+
+.friendForm {
+    padding:20px 16px;
+    background: #fff;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    /* box-shadow: 0 0 10px #d9d8d9; */
+}
+
+:global(#table .ant-table-wrapper .ant-spin-nested-loading .ant-spin-container .ant-pagination) {
+    margin-top: 30px;
+}
+.recordLst{
+    padding:0 10px;
+    width: 450px;
+    max-height:400px;
+    min-height: 80px;
+    overflow-x: hidden;
+    overflow-y:scroll;
+    
+}
+.recordItem{
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid #eee;
+    padding: 10px 0;
+}
+.recordItem:last-child{
+    border-bottom:none;
+}
+.content{
+    word-break: break-all;
+}
+.contentImg{
+    width:180px;
+    height:180px;
+    border-radius: 5px;
+    margin-top:5px;
+}
+.recordContent{
+    display: flex;
+    flex-direction: column;
+}
+.loadMoreBtn{
+    padding-top: 10px;
+    text-align: center;
+    color:#1890ff;
+    cursor: pointer;
+}
+.textMsg {
+    flex: 2;
+    border-radius: 4px;
+    color: #000;
+    padding: 8px;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: #fff;
+    min-height: 40px;
+  }
+  .textMsg i {
+    display: inline-block;
+    margin: 0 2px;
+  }
+  .embed{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .mine .embed{
+    justify-content: flex-end;
+  }
+  .embed img{
+    width: 16px;
+  }
+  .duration{
+    font-size: 12px;
+    position: absolute;
+    height: 40px;
+    right: 0;
+    margin-right: -25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }

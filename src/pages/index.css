@@ -1,0 +1,35 @@
+.loadingBox {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.main {
+  background: #f0f2f5;
+  position: relative;
+  flex: 2;
+  display: flex;
+}
+.content {
+  position: relative;
+  overflow: hidden;
+  overflow-y: visible;
+  overflow-y: overlay;
+  flex: 2;
+  background: #f0f2f5;
+}
+.title{
+  font-size: 18px;
+}
+.upLog p{
+  margin-bottom: 8px;
+}
